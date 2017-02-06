@@ -4,13 +4,12 @@
 typedef struct person
 {
 	char* name;
-    int age;
+	int age;
 }
 person;
 
 int main() {
     person john;
-
     /* testing code */
     john.name = "John";
     john.age = 27;
